@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="flex flex-col min-h-screen">
         
-        <main className="flex-grow container mx-auto p-4">
+        <main className="flex-grow container mx-auto p-4 bg-black">
         <AuthProvider>
                     {children}
                 </AuthProvider>

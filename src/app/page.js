@@ -9,7 +9,7 @@ export const dynamic = "force-dynamic"; // For SSR
 export default function Home() {
     return (
         <>
-            <Navbar page="Home" />
+            <Navbar page="Home"  className="bg-black"/>
             <HeroSection />
             <RecentlyAdded />
             <MostReadSection/>

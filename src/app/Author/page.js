@@ -27,7 +27,7 @@ const Author = () => {
         formData.append("author", author);
         formData.append("description", description);
         formData.append("genre", genre);
-        formData.append("ch", chapter);
+        formData.append("chapter", chapter);
         if (coverImage) {
             formData.append("coverImage", coverImage);
         }
